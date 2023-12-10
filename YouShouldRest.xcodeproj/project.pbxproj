@@ -14,6 +14,7 @@
 		F033AB682B26391000EFAA9A /* YouShouldRestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033AB672B26391000EFAA9A /* YouShouldRestTests.swift */; };
 		F033AB722B26391000EFAA9A /* YouShouldRestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033AB712B26391000EFAA9A /* YouShouldRestUITests.swift */; };
 		F033AB742B26391000EFAA9A /* YouShouldRestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033AB732B26391000EFAA9A /* YouShouldRestUITestsLaunchTests.swift */; };
+		F033AB812B2643F600EFAA9A /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F033AB802B2643F600EFAA9A /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F033AB6D2B26391000EFAA9A /* YouShouldRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouShouldRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F033AB712B26391000EFAA9A /* YouShouldRestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouShouldRestUITests.swift; sourceTree = "<group>"; };
 		F033AB732B26391000EFAA9A /* YouShouldRestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouShouldRestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F033AB802B2643F600EFAA9A /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				F033AB562B26390F00EFAA9A /* YouShouldRestApp.swift */,
 				F033AB582B26390F00EFAA9A /* ContentView.swift */,
+				F033AB802B2643F600EFAA9A /* SleepCalculator.mlmodel */,
 				F033AB5A2B26391000EFAA9A /* Assets.xcassets */,
 				F033AB5C2B26391000EFAA9A /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F033AB592B26390F00EFAA9A /* ContentView.swift in Sources */,
+				F033AB812B2643F600EFAA9A /* SleepCalculator.mlmodel in Sources */,
 				F033AB572B26390F00EFAA9A /* YouShouldRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
